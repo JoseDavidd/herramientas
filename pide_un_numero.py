@@ -1,4 +1,4 @@
-def main():
+def pide_un_numero():
     msg = "Dame un num: "
     entrada = ''
     invalido = False
@@ -8,4 +8,3 @@ def main():
         invalido = True
         entrada = input(msg)
     return int(entrada)
-main()
