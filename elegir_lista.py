@@ -24,6 +24,10 @@ def elegir_indice(lista):
     
     return indice
 
+def elegir_indice_azar(lista):
+    indice_azar = random.randrange(len(lista))
+    return indice_azar
+
 def elegir_valor(lista):
     indice = elegir_indice(lista)
     valor = lista[indice]
